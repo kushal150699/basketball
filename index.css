@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-image:url('https://imageio.forbes.com/specials-images/imageserve/6234e13daa5201146f8e0764/Jazian-Gortman/0x0.jpg?format=jpg&crop=1997,1705,x0,y64,safe&width=960');
+    background-size:cover;
+}
+
+@font-face {
+    src: url("digital.otf");
+    font-family: digital;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width:400px;
+    border: 5px solid white;
+    margin:10px auto;
+    border-radius:15px;
+    width:75%;  
+    overflow: hidden; 
+    padding: 0 70px;
+    background-color:#1B244A; 
+    padding-bottom: 20px;
+}
+
+h3{
+   margin:30px 50px 20px 50px;
+   color:white;
+   font-family: 'Verdana';
+   font-size:40px;
+   line-height: 36px; 
+   text-shadow: 1px 2px 2px gray;
+}
+
+.innercontainer{
+    width:70%;
+    border-radius: 7px;
+    background:black;
+    margin: 0 auto; 
+    text-align: center;
+    color:red; 
+    font-family: digital;
+    padding:2px 0;
+    font-size: 40px;
+}
+
+.innercontainer > h1{
+    margin:10px; 
+    text-shadow: 0 0 3px red;
+}
+
+.points{
+    display:flex;
+    justify-content: center;
+}
+
+.point{
+    font-family: digital;
+    border:2px solid white;
+    color:white;
+    border-radius:5px; 
+    font-size: 20px; 
+    padding:7px;
+    margin:20px 5px;
+    text-shadow: 0 0 1px white;
+    background-color:#1B244A; 
+}
+
+.reset-btn{
+    background: green;
+    text-align: center;
+    width: 20%;
+    max-width: 150px;
+    border-radius:5px;
+    padding:10px;
+    font-family: 'Verdana';
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    border: none;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid white;
+    display: block;
+    margin:10px auto;
+}
+
+
